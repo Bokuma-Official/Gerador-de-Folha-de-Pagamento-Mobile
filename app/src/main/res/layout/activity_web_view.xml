@@ -4,13 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    tools:context=".MainActivity">
-
-    <Button
-        android:id="@+id/btn_Acessar"
-        android:layout_width="312dp"
-        android:layout_height="67dp"
-        android:text="@string/Acessar_Site_Ataron"
-        android:textSize="24sp" />
+    tools:context=".Activity_WebView">
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wbv_Site"/>
 </LinearLayout>
