@@ -20,7 +20,7 @@ public class Activity_WebView extends AppCompatActivity {
 
         wbv_Site.setWebViewClient(new Voltar());
 
-        wbv_Site.loadUrl("https://unip.br");
+        wbv_Site.loadUrl("http://ataron.somee.com/");
     }
 
     private class Voltar extends WebViewClient {
