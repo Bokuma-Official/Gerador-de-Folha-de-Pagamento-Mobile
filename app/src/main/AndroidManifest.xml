@@ -15,10 +15,10 @@
         android:theme="@style/Theme.GeradordeFolhadePagamentoMobile"
         tools:targetApi="31">
         <activity
-            android:name=".Activity_WebView"
+            android:name=".WebView_Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Main_Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
